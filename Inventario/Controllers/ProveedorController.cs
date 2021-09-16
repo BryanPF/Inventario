@@ -100,7 +100,7 @@ namespace Inventario.Controllers
             }
         }
 
-        // PUT api/marca/id
+        // PUT api/proveedor/id
         [HttpPut("{id}")]
         public async Task<ActionResult<ProveedorDTO>> EditarProveedor(ProveedorDTO prove)
         {
@@ -134,7 +134,7 @@ namespace Inventario.Controllers
             }
         }
 
-        // DELETE api/marca/id
+        // DELETE api/proveedor/id
         [HttpDelete("{id}")]
         public async Task<ActionResult<ProveedorDTO>> EliminarProveedor(int id)
         {
